@@ -1,0 +1,37 @@
+/build
+*.iml
+
+  /captures
+  .externalNativeBuild
+  .cxx
+  local.properties
+  # Built application files
+    *.apk
+    *.aab
+    *.ap_
+    *.dex
+    *.class
+
+    # Gradle files
+    .gradle
+    /local.properties
+    build/
+
+    # IntelliJ IDEA
+    .idea/
+
+    *.iws
+    *.ipr
+
+    # Android Studio
+    captures/
+
+    # Keystore files
+    *.jks
+    *.keystore
+
+    # macOS
+    .DS_Store
+
+    # Windows
+    Thumbs.db
