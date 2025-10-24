@@ -1,5 +1,17 @@
+# .jitpack.yml
 jdk:
   - openjdk17
+
+android:
+  components:
+    - platform-tools
+    - build-tools;36.0.0
+    - platform;android-36
+
 before_install:
-  - sdk install java 17.0.1-open || true
-  - sdk use java 17.0.1-open
+  # accept licenses (non-interactive)
+  - yes | sdkmanager --licenses
+
+script:
+  # prefer build/assemble instead of publish
+  - ./gradlew --no-daemon clean build -Porg.gradle.jvmargs=-Xmx2g
