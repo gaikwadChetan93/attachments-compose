@@ -42,19 +42,22 @@ In your **root** `settings.gradle.kts`:
           maven { url = uri("https://jitpack.io") }
       }
   }
-
-  Step 2: Add dependency
+```
+###  Step 2: Add dependency
 
   In your app build.gradle.kts:
 
+  ```kotlin
   dependencies {
       implementation("com.github.gaikwadchetan93:attachments-compose:1.0.0")
   }
+```
 
-  🚀 Usage
+##  🚀 Usage
 
-  Basic Example
+  ### Basic Example
 
+  ```kotlin
   import com.github.gaikwadchetan93.attachmentscompose.AttachmentView
 
   @Composable
@@ -92,7 +95,9 @@ In your **root** `settings.gradle.kts`:
       onAttachmentClick = { uri -> /* ... */ }
   )
 
-  📖 API Reference
+ ```
+
+##  📖 API Reference
 
   AttachmentView
 
@@ -104,11 +109,12 @@ In your **root** `settings.gradle.kts`:
   | modifier          | Modifier         | No       | Modifier for the composable  |
   | onAttachmentClick | (String) -> Unit | No       | Click callback with URI      |
 
-  🤝 Contributing
+ 
+##  🤝 Contributing
 
   Contributions are welcome! Please feel free to submit a Pull Request.
 
-  📄 License
+##  📄 License
 
   Copyright 2025 Chetan Gaikwad
 
@@ -124,15 +130,14 @@ In your **root** `settings.gradle.kts`:
   See the License for the specific language governing permissions and
   limitations under the License.
 
-  🌟 Show Your Support
+##  🌟 Show Your Support
 
   Give a ⭐️ if this project helped you!
 
-  📧 Contact
+##  📧 Contact
 
-  Chetan Gaikwad - gaikwadchetan93@gmail.com
-  LinkedIn: https://www.linkedin.com/in/chetan-gaikwad/
-  Project Link: https://github.com/gaikwadchetan93/attachments-compose
+[LinkedIn](https://www.linkedin.com/in/chetan-gaikwad/)
 
-  ---
-  Made with ❤️ using Jetpack Compose
+[Check out the GitHub repository](https://github.com/gaikwadchetan93/attachments-compose)
+
+<h1 align="center">Made with ❤️ using Jetpack Compose</h1>
