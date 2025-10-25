@@ -6,10 +6,14 @@ pluginManagement {
         mavenCentral()
     }
 }
+
 dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
     }
 }
+
 rootProject.name = "attachments-compose"
+include(":library")
+include(":demo")
