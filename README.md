@@ -131,7 +131,7 @@ In your **root** `settings.gradle.kts`:
   📧 Contact
 
   Chetan Gaikwad - gaikwadchetan93@gmail.com
-
+  LinkedIn: https://www.linkedin.com/in/chetan-gaikwad/
   Project Link: https://github.com/gaikwadchetan93/attachments-compose
 
   ---
