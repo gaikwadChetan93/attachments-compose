@@ -21,6 +21,12 @@ A beautiful, Material Design 3 attachment viewer for Jetpack Compose.
     <img src="screenshots/Screenshot_1.png" width="384" alt="Light Theme"/>
   </p>
 
+## 📸 Demo
+
+<p align="center">
+  <img src="./screenshots/Demo.gif" alt="App demo" width="600"/>
+</p>
+
 ## 📦 Installation
 
 ### Step 1: Add JitPack repository
