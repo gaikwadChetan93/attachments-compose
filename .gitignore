@@ -1,37 +1,185 @@
-/build
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+# Android
 *.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
 
-  /captures
-  .externalNativeBuild
-  .cxx
-  local.properties
-  # Built application files
-    *.apk
-    *.aab
-    *.ap_
-    *.dex
-    *.class
+# Android Studio
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
 
-    # Gradle files
-    .gradle
-    /local.properties
-    build/
+# Gradle
+.gradle/
+build/
 
-    # IntelliJ IDEA
-    .idea/
+# Kotlin
+*.kotlin_module
 
-    *.iws
-    *.ipr
+# Kotlin Multiplatform
+shared/build/
+app/build/
+*/build/
 
-    # Android Studio
-    captures/
+# iOS
+xcuserdata/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
 
-    # Keystore files
-    *.jks
-    *.keystore
+# Xcode
+*.xcworkspace
+!default.xcworkspace
+*.xcodeproj
+!default.xcodeproj
 
-    # macOS
-    .DS_Store
+# CocoaPods
+Pods/
 
-    # Windows
-    Thumbs.db
+# Swift Package Manager
+.swiftpm/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# JetBrains IDEs
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# VS Code
+.vscode/
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Backup files
+*.bak
+*.tmp
+*.orig
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Keys and certificates
+*.keystore
+*.jks
+*.p12
+*.key
+*.pem
+*.crt
+
+# Logs
+logs/
+*.log
+
+# Test results
+test-results/
+test-reports/
+
+# Coverage reports
+coverage/
+*.lcov
+
+# Dependency directories
+node_modules/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Generated files
+generated/
+gen/
